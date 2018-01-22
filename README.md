@@ -38,10 +38,6 @@ This is a starter web application based on the following technology stack:
 [13]: https://github.com/sds/slim-lint
 [14]: https://github.com/brigade/scss-lint
 
-Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: https://ruby2-rails4-bootstrap-heroku.herokuapp.com/
-
-```Gemfile``` also contains a set of useful gems for performance, security, api building...
-
 ### Thread safety
 
 We assume that this application is thread safe. If your application is not thread safe or you don't know, please set the minimum and maximum number of threads usable by puma on Heroku to 1:
@@ -92,5 +88,3 @@ Ruby 2.1.1 introduced new environment variable RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACT
 ```sh
 $ heroku config:set RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR=1.3
 ```
-
-More information: [Change the full GC timing](https://bugs.ruby-lang.org/issues/9607)
